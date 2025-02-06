@@ -75,3 +75,35 @@ main{
     width: 100%;
     height: 100%;
 }
+.contactSection{
+    display: flex;
+    width: 100%;
+    gap: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactImage{
+    width: 60%;
+}
+.contactBtn{
+    height: 20%;
+}
+footer{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+footer p{
+    color: black;
+}
+
+
+.logos{
+    height: 30px;
+    fill: white;
+}
